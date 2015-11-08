@@ -27,7 +27,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td width="33%" valign="top" ><center><input type="button" style="height:50px; width:100px" value="Snap" name="openSnapForm"/>
+                    <td width="33%" valign="top" ><center><input type="button" style="height:50px; width:100px" value="Take Snapshot" name="openSnapForm"/>
                             <br/>
                         <input type="submit" value="Upload" name="uploadFromfile" style="height:50px; width:100px" /></center></td>
                     <td width="33%"><center><img border="1" src="farmer.jpg" width="50%" height="50%" alt="profile picture"/>
