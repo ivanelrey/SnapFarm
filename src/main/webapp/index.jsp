@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>SnapFarm</title>
+      
     </head>
     <%
         Date date = new Date();
@@ -27,9 +28,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td width="33%" valign="top" ><center><input type="button" style="height:50px; width:100px" value="Take Snapshot" name="openSnapForm"/>
+                    <td width="33%" valign="top" ><center>
+                        
+                        <input type="button" style="height:50px; width:100px" value="Take Snapshot" name="openSnapForm" onclick="window.location = 'index1.jsp';"/>
+   
                             <br/>
-                        <input type="submit" value="Upload" name="uploadFromfile" style="height:50px; width:100px" /></center></td>
+                        <input type="submit" value="Upload" name="uploadFromfile" onclick="window.location = 'index2.jsp';" style="height:50px; width:100px" /></center></td>
                     <td width="33%"><center><img border="1" src="farmer.jpg" width="50%" height="50%" alt="profile picture"/>
                         <br/><b>Name:</b>user's name from DB
                         <br/><b>Age:</b>user's age from DB
