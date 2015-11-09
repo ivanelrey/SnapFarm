@@ -38,7 +38,11 @@
                         <br/><b>Name:</b>user's name from DB
                         <br/><b>Age:</b>user's age from DB
                         <br/><b>Profession:</b>user's profession from DB</center></td>
-                        <td width="33%" valign="top"><center><input type="button" style="height:50px; width:100px" value="Log Out" name="LogOut" /></center></td>
+                        <td width="33%" valign="top"><center>
+                            <input type="button" style="height:50px; width:100px" value="Log Out" name="LogOut" />
+                            <br/>
+                            <input type="submit" value="Register" name="registrarPage" onclick="window.location = 'registerIndex.jsp';" style="height:50px; width:100px"/></center>
+                        </td>
                 </tr>
             </tbody>
         </table>
